@@ -1,0 +1,129 @@
+img{
+    width: 100%;
+}
+.shadow{
+    box-shadow: 0 2px 10px rgb(218, 207, 207);
+}
+.container{
+    width:98%;
+    margin:auto;
+    display: flex;
+}
+.container .gallary ul{
+    display:flex;
+    width:200px;
+    margin:2px auto;
+}
+.container .gallary li{
+    list-style: none;
+    width: 50px;
+    border: 0.5px solid rgb(240, 234, 234);
+    border-radius: 2px;
+    
+}
+.gallary{
+    width:45%;
+    margin-left:2%;
+}
+.product-info{
+    width: 55%;
+}
+
+.product-info h4{
+    width:80px;
+    color:rgb(255, 19, 204);
+    border-bottom:1px solid red
+}
+
+.sub-menu{
+    margin-left: 5px;
+    margin-top: 20px;
+    padding:5px;
+    display:flex;
+}
+.sub-menu a:first-child{
+     margin-right: 20px;
+}
+.sub-menu a:hover{
+    border-bottom: 2px solid rgb(57, 150, 255);
+}
+.sub-menu a p{
+    font-size: 20px;
+    border-radius: 5px;
+}
+.information #specification{
+    margin-top: 5px;
+    padding-top:2px;
+    padding-left: 8px;
+    box-shadow: 0 2px 10px rgb(228, 208, 208);
+    
+}
+
+.information #specification p:nth-child(even){
+     opacity: 70%;
+}
+.information #specification p:nth-child(odd){
+    padding-bottom: 10px;
+     border-bottom:1px solid rgb(223, 213, 213);
+}
+.product-info  a p{
+    width:100px;
+   
+    text-align: center;
+    color: rgb(27, 1, 255);
+    border:1px solid rgb(27, 1, 255);
+    padding:10px;
+    border-radius: 3px;
+}
+
+.product-info  a:hover p{
+    box-shadow:0 0 3px rgb(27, 1, 255);
+    background-color:rgb(27, 1, 255);
+    color: white;
+}
+
+
+
+
+
+
+.information #description{
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgb(228, 208, 208);
+}
+.information #description h2,
+.information #description h3,
+.information #description p{
+    margin-left:10px;
+
+}
+.information #description h2{
+    padding-top: 20px;
+ 
+}
+.information #description p{
+   padding-bottom: 20px;
+}
+
+
+
+@media screen and (max-width: 700px) {
+    
+    .container{
+        display:block;
+    }
+    .container .gallary ul{
+        
+        margin-left:15%;
+    }
+    .gallary{
+        width:98%;
+        margin-left:2%;
+    }
+    .product-info{
+        width: 98%;
+    }
+
+
+}

@@ -1,0 +1,215 @@
+.login{
+    margin-top:50px;
+    margin-right:13%;
+    margin-left:13%;
+}
+.login h2{
+    float:left;
+    
+}
+.login p{
+    float:right;
+}
+.register{
+    width:75%;
+    margin:auto;
+    box-shadow:0 0 8px rgb(104, 96, 90);
+    border-radius:5px;
+    padding-bottom: 20px;
+}
+.register label{
+    display: block;
+    font-size: 14px;
+    opacity: 75%;
+    margin-bottom: 5px;
+}
+
+.number-password{
+    width:40%;
+    margin-left: 2%;
+    margin-right: 3%;
+    margin-top:15px;
+    position: relative;
+    
+    
+}
+.name,
+.phone,
+.password,
+.birthday{
+    margin-bottom: 25px;
+}
+.register input{
+    width:100%;
+    padding-top:8px;
+    padding-bottom:8px;
+    border:1px solid rgb(212, 201, 201);
+    border-radius: 4px;
+    
+}
+.register .phone:hover input,
+.register .password:hover input,
+.register .name:hover input,
+.register .birthday:hover input,
+.register .gender:hover #gender
+{
+     box-shadow: inset 0 0 5px rgb(70, 111, 245);
+     border: 1px solid rgb(58, 44, 252);
+}
+
+#gender{
+    padding:8px;
+    border-radius:4px;
+    border:1px solid rgb(212, 201, 201)
+}
+.gender option{
+    padding:8px;
+}
+
+.register .number-password .button{
+    margin-top: 50px;
+    
+
+}
+.register .number-password .button p{
+    
+    width: 70px;
+    padding:8px 12px;
+    border:1px solid rgb(44, 210, 252);
+    border-radius: 3px;
+    margin-top:28px;
+    position: relative;
+    color: rgb(44, 210, 252);
+    text-align: center;
+}
+.register .number-password .button:hover p{
+    transition: 1s;
+    background-color: rgb(44, 210, 252);
+    color:white;
+    box-shadow: 0 0 5px rgb(44, 210, 252);
+}
+
+
+.register .text{
+    
+    margin: auto 2%;
+    opacity: 75%;
+}
+.register .text h3{
+    color: rgb(43, 153, 243);
+}
+
+
+.social-media-register{
+    width:43%;
+    margin-right: 2%;
+    margin-left: 10%;
+    
+
+}
+
+
+.social-media-register p:first-child{
+   opacity:90%;
+
+    
+
+}
+
+.social-media-register button{
+      padding:8px;
+      margin-bottom: 25px;
+      width:80%;
+      border:none;
+      border-radius: 3px;
+}
+.social-media-register a{
+    padding:8px;
+}
+.social-media-register .facebook{
+    background-color: rgb(71, 52, 240);
+}
+.social-media-register .facebook:hover{
+    box-shadow: 0 0 4px rgb(71, 52, 240);
+}
+.social-media-register .google{
+    background-color: rgb(231, 48, 24);
+}
+.social-media-register .google:hover{
+    box-shadow: 0 0 4px rgb(231, 48, 24);
+}
+.social-media-register button .fa,
+.social-media-register button p
+{
+       margin:auto 20px;
+       font-size: 18px;
+       color:white
+
+}
+
+
+@media screen and (max-width: 800px) {
+    .register{
+        width:95%
+    }
+
+    .login{
+       
+        margin-right:3%;
+        margin-left:3%;
+    }
+    .register input{
+        width: 100%;
+    }
+    .social-media-register button{
+        
+        width:100%
+  }
+  .social-media-register{
+    
+    margin-right: 5%;
+    margin-left: 0%;
+  }
+}
+@media screen and (max-width: 500px) {
+    .register{
+        margin-top:120px;
+        width:95%;
+        display: block;
+        padding-top:5px
+    }
+ 
+    .register h3{
+        text-align: center;
+    }
+
+    .login{
+       
+        margin-right:3%;
+        margin-left:3%;
+    }
+    .register input{
+        width: 100%;
+    }
+    .social-media-register button{
+        
+        width:100%
+  }
+  .social-media-register{
+    width:95%;
+    margin-right:2%;
+    margin-left: 3%;
+  }
+  .number-password{
+    width:95%;
+    margin-left: 2%;
+    margin-right: 3%;
+    margin-top:15px;
+    position: relative;
+    
+    
+}
+  
+
+
+}
